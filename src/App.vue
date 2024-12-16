@@ -1,9 +1,9 @@
+<script setup>
+import BasicLayout from "./components/layouts/BasicLayout.vue";
+</script>
+
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <BasicLayout />
 </template>
 
 <style lang="scss">

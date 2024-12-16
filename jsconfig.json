@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
+    "types": ["element-plus/global"],
     "paths": {
       "@/*": [
-        "src/*"
+        "public/img/src/*"
       ]
     },
     "lib": [
